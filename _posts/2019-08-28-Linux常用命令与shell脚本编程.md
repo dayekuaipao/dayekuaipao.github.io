@@ -124,7 +124,7 @@ manual.可以查看命令的帮助.
 可以查看简单版的帮助.  
 `apropos`  
 可以查看帮助中带有此关键词的命令.  
-tips:文件系统安全性:  
+**tips**:文件系统安全性:  
 linux系统中的文件具有不同的执行权限.输入ls -l,可以看到如下信息:  
 ![ls -l](https://github.com/dayekuaipao/dayekuaipao.github.io/tree/master/images/file.png)
 rwx分别代表read,write和excute.  
@@ -133,6 +133,7 @@ rwx分别代表read,write和excute.
 `chmod`  
 change mode.修改文件权限.   
 权限的相关选项如下:  
+
 symbol|meaning  
 ---|---  
 u|user  
@@ -145,7 +146,7 @@ x|excute
 \+|add permission  
 \-|take away permission  
 
-tips:进程  
+**tips**:进程  
 进程是一个由唯一PID(Process Identifier)标志的正在执行的程序.  
 `ps`  
 process status.查看进程的相关信息.  
