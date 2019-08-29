@@ -142,8 +142,8 @@ a|all
 r|read  
 w|write  
 x|excute  
-+|add permission  
--|take away permission  
+\+|add permission  
+\-|take away permission  
 
 tips:进程  
 进程是一个由唯一PID(Process Identifier)标志的正在执行的程序.  
