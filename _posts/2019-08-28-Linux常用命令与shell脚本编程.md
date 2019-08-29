@@ -131,7 +131,7 @@ rwx分别代表read,write和excute.
 对于文件,read表示可以读以及复制,write表示可以修改文件,excute表示可以可以执行这个文件.  
 对于目录,read表示可以list这个路径,write表示可以删除这个目录或者移动文件到目录里面,excute表示可以进入目录下并对文件进行操作(如果有文件的相关权限的话).  
 `chmod`  
-change mode.修改文件权限. 
+change mode.修改文件权限.   
 权限的相关选项如下:  
 symbol|meaning  
 ---|---  
