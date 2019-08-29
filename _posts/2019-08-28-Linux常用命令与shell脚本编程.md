@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Linux常用命令与shell脚本编程"
-date: 2019-08-28
-Author: dayekuaipao
-categories: tech blog
-tags: [Linux,shell]
-comments: false
+title: Linux常用命令与shell脚本编程
+categories: [tech blog]
+description: Linux常用命令与shell脚本编程
+keywords: Linux,shell
 ---
 
 Linux是一个常用的基于UNIX的操作系统.平时我们可以使用X Windows提供的图形化界面来与系统交互.但是有时候,我们没办法使用图形化界面(如使用telne或ssh的时候),这时就需要我们掌握常用的Linux命令.
