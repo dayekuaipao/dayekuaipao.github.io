@@ -69,9 +69,9 @@ eg:
 `grep science science.txt`  
 会输出science.txt中所有包含science的行数.  
 还有其他的选项:  
-``` 
+```sh 
 -i 忽略大小写
--v 显示不匹配的行'
+-v 显示不匹配的行
 -n 在每一行前显示行数
 -c 只答应匹配的行数的总数
 ```
