@@ -50,7 +50,8 @@ concatenate.将一个文件的所有内容显示到屏幕上.
 `read line`  
 接受输入,读入一行,并将其输出到变量line中.  
 eg:  
-```cat a.txt|while read line  
+```sh 
+cat a.txt|while read line  
 do  
 echo $line
 done
