@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Linux常用命令与shell脚本编程
-categories: [tech blog]
-description: Linux常用命令与shell脚本编程
-keywords: Linux,shell
 ---
 
 Linux是一个常用的基于UNIX的操作系统.平时我们可以使用X Windows提供的图形化界面来与系统交互.但是有时候,我们没办法使用图形化界面(如使用telne或ssh的时候),这时就需要我们掌握常用的Linux命令.
@@ -129,12 +126,13 @@ manual.可以查看命令的帮助.
 可以查看帮助中带有此关键词的命令.  
 tips:文件系统安全性:  
 linux系统中的文件具有不同的执行权限.输入ls -l,可以看到如下信息:  
-![ls -l](../images/file.png)
+![ls -l](https://github.com/dayekuaipao/dayekuaipao.github.io/tree/master/images/file.png)
 rwx分别代表read,write和excute.  
 对于文件,read表示可以读以及复制,write表示可以修改文件,excute表示可以可以执行这个文件.  
 对于目录,read表示可以list这个路径,write表示可以删除这个目录或者移动文件到目录里面,excute表示可以进入目录下并对文件进行操作(如果有文件的相关权限的话).  
 `chmod`  
-change mode.修改文件权限.  
+change mode.修改文件权限. 
+权限的相关选项如下:
 symbol|meaning  
 ---|---  
 u|user  
@@ -145,6 +143,7 @@ r|read
 w|write  
 x|excute  
 +|add permission  
+
 -|take away permission  
 tips:进程  
 进程是一个由唯一PID(Process Identifier)标志的正在执行的程序.  
