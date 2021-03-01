@@ -4,7 +4,7 @@ title: TensorRT学习笔记
 ---
 TensorRT是英伟达推出的高性能深度学习推断平台。它包含了一个深度学习推断优化器和一个为深度学习推断应用提供的低延迟、大吞吐运行环境。在推断时能比CPU快40倍左右。使用TensorRT能够优化几乎所有主流框架上训练的模型，并且在提高速度的同时只有很小的精度损失。
 
-![Layer & Tensor Fusion  Precision Calibration  Trained Neural  Network  Dynamic Tensor  Memory  Kernel Auto-Tuning  Multi-Stream  Execution  O  Optimized  Inference  Engine ](https://github.com/dayekuaipao/dayekuaipao.github.io/tree/master/images/tensorrt.png)
+![tensorrt](https://github.com/dayekuaipao/dayekuaipao.github.io/tree/master/images/tensorrt.png)
 
 TensorRT首先解析已经在主流深度学习框架中（Caffe，英伟达有自己的Caffe分支，叫nvCaffe，支持fp16；TensorFlow，现在TensorRT已经嵌入到TensorFlow中；ONNX，包括Pytorch，Darknet，MXNet，PaddlePaddle等）已经训练好的模型。解析完成后，会生成一个优化之后的运行时引擎。这个引擎可以部署在数据中心乃至嵌入式设备的很多地方。
 
